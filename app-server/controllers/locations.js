@@ -1,0 +1,9 @@
+module.exports.homelist=function(req,res){
+    res.render('index1',{title:'Home'});
+};
+module.exports.locationInfo=function(req,res){
+    res.render('index2',{title:'locationInfo'});
+};
+module.exports.addReview=function(req,res){
+    res.render('index3',{title:'AddReview'});
+};
